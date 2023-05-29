@@ -15,6 +15,13 @@ public:
     }
 };
 
+class manusia {
+public:
+    string jeniskelamin;
+
+
+};
+
 int main()
 {
     
