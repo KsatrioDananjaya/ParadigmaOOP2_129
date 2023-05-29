@@ -32,6 +32,16 @@ public:
 class pelajar : private manusia, public orang {
 public:
     string sekolah;
+
+    pelajar(string pNama, string pJeniskelamin, string pSekolah) :
+        orang(pNama),
+        manusia(pJeniskelamin),
+        sekolah(pSekolah) {
+        cout << "Pelajar dibuat \n" << endl;
+    }
+    ~pelajar() {
+        cout << "Pelajar dihapus \n" << endl;
+    }
 };
 
 int main()
