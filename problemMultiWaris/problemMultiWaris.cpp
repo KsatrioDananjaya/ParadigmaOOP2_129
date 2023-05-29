@@ -45,6 +45,7 @@ public:
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    budi a(12);
+    return 0;
 }
 
